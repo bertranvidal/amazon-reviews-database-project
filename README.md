@@ -3,13 +3,13 @@ Amazon Reviews Database Project
 This project designs and implements a complete data management and visualization system for Amazon product reviews using MySQL, MongoDB, and Neo4j.
 It combines relational, non-relational, and graph databases with an interactive Dash dashboard for analysis and visualization.
 
-Authors
+👥 Authors
 
 Javier Mendoza Guerrero
 
 Luis Bertrán Vidal Campos
 
-Main Features
+⚙️ Main Features
 
 MySQL: structured storage (users, products, reviews).
 
@@ -19,41 +19,35 @@ Neo4j: graph relationships between users and products.
 
 Dash Dashboard: interactive visual analysis (temporal trends, popularity, word clouds).
 
-Key Scripts
-
-load_data.py → creates databases and loads datasets.
-
-inserta_dataset.py → adds an extra dataset (Pet_Supplies_5.json).
-
-menu_visualizacion.py → launches the Dash dashboard.
-
-neo4JProyecto.py → executes graph-based analysis in Neo4j.
-
-configuracion.py → connection settings for MySQL and MongoDB.
-
-How to Run
+📁 Key Scripts
+File	Description
+load_data.py	Creates databases and loads datasets.
+inserta_dataset.py	Adds dataset
+menu_visualizacion.py	Launches the Dash dashboard.
+neo4JProyecto.py	Runs graph-based analysis in Neo4j.
+configuracion.py	Connection settings for MySQL and MongoDB.
+🚀 How to Run
 
 Start MySQL, MongoDB, and Neo4j.
 
 Edit your credentials in configuracion.py.
 
-Run:
+Execute:
 
 python load_data.py
 python menu_visualizacion.py
 
 
 Open http://127.0.0.1:8050/
- to access the dashboard.
 
-Optionally:
+(Optional) Run graph analysis:
 
 python neo4JProyecto.py
 
-Technologies
+🧰 Technologies
 
-Python · MySQL · MongoDB · Neo4j · Dash · Plotly · Matplotlib · WordCloud
+Python, MySQL, MongoDB, Neo4j, Dash, Plotly, Matplotlib, WordCloud
 
-License
+📜 License
 
 MIT License
